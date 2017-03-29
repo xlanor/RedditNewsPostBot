@@ -45,3 +45,6 @@ class Configuration():
 
     def get_comment_template(self):
         return self.configuration["comment_template"]
+
+    def get_subreddit(self):
+        return self.configuration["subreddit"]

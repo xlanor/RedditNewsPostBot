@@ -1,2 +1,5 @@
+# Ignore all python cache files
 __pycache__
-config.py
+
+# Ignore filled bot credentials file
+credentials.json

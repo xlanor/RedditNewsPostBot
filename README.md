@@ -20,5 +20,6 @@ A sample bot of this project is running over at [Reddit /u/RedditNewsPostBot](ht
 
 ## Usage
 1. Install requirements through `pip3 install -r requirements.txt`.
-2. Fill in bot credentials in `credentials.json`
-3. Run bot with `python3 redditnewspostbot.py`
+2. Copy template `credentials-template.json` to `credentials.json`
+3. Fill in bot credentials in `credentials.json`
+4. Run bot with `python3 redditnewspostbot.py`

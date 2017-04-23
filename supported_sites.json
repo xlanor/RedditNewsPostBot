@@ -76,6 +76,7 @@
             ".a2abtn": "decompose",
             ".button_news_post_text": "decompose",
             ".hidden-print": "decompose",
+            ".mode-embed_horizontal_related_story_q": "decompose",
             ".news_mine_logo": "decompose",
             "figcaption": "decompose"
         },

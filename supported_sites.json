@@ -35,16 +35,11 @@
     },
     "www.channelnewsasia.com": {
         "site": "ChannelNewsAsia",
-        "content_selector": "div.bigstory.text-area",
+        "content_selector": ".c-article--default",
         "modifications": {
-            ".add-txt": "unwrap",
-            ".article-sharing-block": "decompose",
-            ".breadcrumbs-top": "decompose",
-            ".comm-img-holder": "unwrap",
-            ".tab-gallery-nav": "decompose",
-            "script": "decompose",
-            "strong": "unwrap",
-            "style": "decompose"
+            ".article__footer": "decompose",
+            ".c-advertisement--rectangle-float": "decompose",
+            ".c-sharing--default": "decompose"
         },
         "replacements": {
             "Updated\\s*(.*)": "Updated: \\1",

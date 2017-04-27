@@ -23,7 +23,10 @@ class Configuration():
             parsed_configuration = re.sub(r"// .*\n", r"\n", configuration)
             self.configuration = json.loads(parsed_configuration)
 
-            credentials = open(credentials_file, "r").read()
+            try:
+                credentials = open(credentials_file, "r").read()
+            except FileNotFoundError:
+                credentials = open("credentials-template.json", "r").read()
             parsed_credentials = re.sub(r"// .*\n", r"\n", credentials)
             self.configuration["credentials"] = json.loads(parsed_credentials)
 

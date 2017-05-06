@@ -60,7 +60,7 @@ class RedditNewsPostBot:
         while i < len(article_lines):
             article_part += "> " + article_lines[i] + "\n"
             i += 1
-            if len(article_part) >= 5000:
+            if len(article_part) >= 9750:
                 article_parts.append(article_part)
                 article_part = ""
         article_parts.append(article_part)
